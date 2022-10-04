@@ -79,3 +79,13 @@ main p, li{
 .tapas{
     text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+    .img-mock, .tapas-interiores{
+        width: 280px;
+    }
+
+    header h1{
+        font-size: 15pt;
+    }
+}
