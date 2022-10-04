@@ -1,0 +1,81 @@
+@font-face{
+    font-family:gonzi-head;
+    src: url(../fonts/GonziExpandedPERSONALUSE-BlackItalic.otf);
+}
+
+@font-face{
+    font-family: roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    font-family: gonzi-head;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #000000;
+}
+
+header h1{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+main{
+    font-family: roboto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+footer{
+    font-family: gonzi-head;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #000000;
+}
+
+footer p{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+main h3, h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25pt;
+}
+
+main p{
+    text-align: center;
+}
+
+main p, li{
+    font-size: 17pt;
+}
+
+.img-mock{
+    width: 1000px;
+    margin-bottom: 40px;
+    text-align: center;
+    box-shadow: 0 0 15px #000000;
+}
+
+.mockup{
+    text-align: center;
+}
+
+.tapas-interiores{
+    width: 1000px;
+    margin-bottom: 40px;
+    text-align: center;
+    box-shadow: 0 0 15px #000000;
+}
+
+.tapas{
+    text-align: center;
+}
